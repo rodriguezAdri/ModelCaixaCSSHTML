@@ -1,0 +1,39 @@
+button {
+    border: 3px solid red;
+    /*background-color: red;*/
+    margin: 50px;
+    padding: 60px 40px;
+    display: inline-table;
+}
+
+button {
+    padding: 60px 40px 20px 0px;
+}
+
+#p1{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    overflow: visible;
+}
+
+#p2{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    overflow: hidden;
+}
+
+#p3{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    overflow: scroll;
+}
+
+#p4{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    overflow: auto;
+}
