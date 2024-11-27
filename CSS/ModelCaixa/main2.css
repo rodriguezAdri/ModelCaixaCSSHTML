@@ -17,14 +17,14 @@ body {
 
 
 .contenidor-xat {
-    width: 400px; /* Ample fix per al contenidor */
-    height: 300px; /* Alçada fixa per al contenidor */
-    border: 2px solid #ddd; /* Bord de la caixa */
-    border-radius: 10px; /* Cantonades arrodonides */
-    padding: 10px; /* Padding intern per separar el contingut del bord */
-    background-color: #fff; /* Fons blanc */
-    overflow-y: auto; /* Activa el desplaçament vertical quan el contingut excedeix */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra lleugera per un efecte flotant */
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: #fff;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 

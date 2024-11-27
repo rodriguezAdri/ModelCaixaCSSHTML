@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.targeta {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.targeta:hover {
+    transform: translateY(-10px);
+}
+
+.imatge-perfil {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imatge-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.informacio-perfil {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.nom-usuari {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.descripcio {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #006f8e;
+}
