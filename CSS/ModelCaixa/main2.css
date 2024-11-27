@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+.contenidor-xat {
+    width: 400px; /* Ample fix per al contenidor */
+    height: 300px; /* Alçada fixa per al contenidor */
+    border: 2px solid #ddd; /* Bord de la caixa */
+    border-radius: 10px; /* Cantonades arrodonides */
+    padding: 10px; /* Padding intern per separar el contingut del bord */
+    background-color: #fff; /* Fons blanc */
+    overflow-y: auto; /* Activa el desplaçament vertical quan el contingut excedeix */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra lleugera per un efecte flotant */
+}
+
+
+.missatge {
+    padding: 10px;
+    margin-bottom: 8px; 
+    background-color: #f1f1f1; 
+    border-radius: 8px; 
+    font-size: 16px;
+    color: #333;
+}
+
+
+.missatge:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+.missatge:nth-child(even) {
+    background-color: #cce4ff; 
+}
